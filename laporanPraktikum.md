@@ -240,7 +240,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/sheullyn/103112430114_Shellyn-Euriska-Putri/blob/main/week1/laprak/output1.png)
+![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week1/output1.png)
 
 Program di atas menerima dua input berupa bilangan bertipe float dari pengguna, lalu menghitung dan menampilkan hasil penjumlahan, pengurangan, perkalian, serta pembagian dari kedua bilangan tersebut. Untuk operasi pembagian, program memeriksa apakah bilangan kedua bernilai nol agar dapat menghindari pembagian dengan nol yang tidak terdefinisi. Setiap hasil operasi ditampilkan dengan format yang jelas, sehingga pengguna dapat langsung melihat proses perhitungan dan hasilnya.
 
@@ -291,7 +291,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_2](https://github.com/sheullyn/103112430114_Shellyn-Euriska-Putri/blob/main/week1/laprak/output2.png)
+![Screenshot Output Unguided 1_2](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week1/output2.png)
 
 
 Program di atas menerima input berupa angka bulat positif dari 1 hingga 100, lalu mengubah angka tersebut menjadi bentuk tulisan dalam bahasa Indonesia. Program menggunakan array satuan untuk menyimpan kata-kata angka dasar, kemudian memanfaatkan logika percabangan untuk menentukan format penulisan: angka 1–11 langsung diambil dari array, angka 12–19 menggunakan format "{satuan} belas", angka 20–99 menggunakan format "{satuan} puluh {satuan}", dan angka 100 ditulis sebagai "seratus". Jika input di luar rentang 1–100, program menampilkan pesan error.
@@ -353,7 +353,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/sheullyn/103112430114_Shellyn-Euriska-Putri/blob/main/week1/laprak/output3.png)
+![Screenshot Output Unguided 1_3](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week1/output3.png)
 
 Program di atas meminta pengguna memasukkan sebuah angka, lalu mencetak pola berbentuk segitiga simetris yang terdiri dari angka menurun dan menaik di setiap baris, dipisahkan oleh tanda bintang (*). Setiap baris dimulai dengan spasi yang bertambah sesuai urutan baris, diikuti deretan angka menurun dari nilai input hingga 1, lalu tanda *, kemudian angka menaik dari 1 hingga nilai baris tersebut. Setelah seluruh baris tercetak, program menambahkan satu baris terakhir berisi spasi dan satu tanda * di tengah sebagai penutup pola. Program ini menggunakan beberapa loop bersarang untuk mengatur spasi, angka, dan simbol agar pola tercetak rapi sesuai input pengguna.
 
