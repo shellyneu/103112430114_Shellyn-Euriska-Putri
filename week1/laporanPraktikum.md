@@ -366,6 +366,5 @@ Pada praktikum ini, telah dipelajari dasar-dasar pemrograman C++ meliputi penggu
 <br>
 [2] Dewi, L. J. E. (2010). Media Pembelajaran Bahasa Pemrograman C++. Jurnal Pendidikan Teknologi dan Kejuruan, 7(1), 63–72. https://ejournal.undiksha.ac.id/index.php/JPTK/article/download/31/25/94
 </br>
-<br>
 [3] Sugiyo & Septian, F. (2022). Model Pembelajaran Pemrograman Bahasa C++ untuk Tunanetra dengan Metode Problem Based Learning. Jurnal Maklumatika, 8(2), 119–125. https://maklumatika.i-tech.ac.id/index.php/maklumatika/article/download/126/130
-</br>
+
