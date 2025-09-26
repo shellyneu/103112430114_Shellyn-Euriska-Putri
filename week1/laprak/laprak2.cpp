@@ -10,6 +10,7 @@ int main() {
     cout << "Masukkan angka (1-100): ";
     cin >> angka;
 
+    cout << angka << ": ";
     if (angka < 1 || angka > 100) {
         cout << "Angka harus 1-100" << endl;
     } else {

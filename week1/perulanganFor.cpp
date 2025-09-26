@@ -7,9 +7,6 @@ int main() {
     cout << "masukkan angka 1: ";
     cin >> angka1;
 
-    // cout << "masukkan angka 2: ";
-    // cin >> angka2;
-
     //increment
     for (int i = 0; i < angka1; i++) {
         cout << i << " - ";
