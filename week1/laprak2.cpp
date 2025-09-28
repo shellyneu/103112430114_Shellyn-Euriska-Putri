@@ -7,11 +7,11 @@ using namespace std;
 int main() {
     int angka;
 
-    cout << "Masukkan angka (1-100): ";
+    cout << "Masukkan angka (0-100): ";
     cin >> angka;
 
     cout << angka << ": ";
-    if (angka < 1 || angka > 100) {
+    if (angka < 0 || angka > 100) {
         cout << "Angka harus 1-100" << endl;
     } else {
         vector<string> satuan = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"};

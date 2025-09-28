@@ -257,11 +257,11 @@ using namespace std;
 int main() {
     int angka;
 
-    cout << "Masukkan angka (1-100): ";
+    cout << "Masukkan angka (0-100): ";
     cin >> angka;
 
     cout << angka << ": ";
-    if (angka < 1 || angka > 100) {
+    if (angka < 0 || angka > 100) {
         cout << "Angka harus 1-100" << endl;
     } else {
         vector<string> satuan = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"};
@@ -294,7 +294,7 @@ int main() {
 ![Screenshot Output Unguided 1_2](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week1/output2.png)
 
 
-Program di atas menerima input berupa angka bulat positif dari 1 hingga 100, lalu mengubah angka tersebut menjadi bentuk tulisan dalam bahasa Indonesia. Program menggunakan array satuan untuk menyimpan kata-kata angka dasar, kemudian memanfaatkan logika percabangan untuk menentukan format penulisan: angka 1–11 langsung diambil dari array, angka 12–19 menggunakan format "{satuan} belas", angka 20–99 menggunakan format "{satuan} puluh {satuan}", dan angka 100 ditulis sebagai "seratus". Jika input di luar rentang 1–100, program menampilkan pesan error.
+Program di atas menerima input berupa angka bulat positif dari 0 hingga 100, lalu mengubah angka tersebut menjadi bentuk tulisan dalam bahasa Indonesia. Program menggunakan array satuan untuk menyimpan kata-kata angka dasar, kemudian memanfaatkan logika percabangan untuk menentukan format penulisan: angka 0–11 langsung diambil dari array, angka 12–19 menggunakan format "{satuan} belas", angka 20–99 menggunakan format "{satuan} puluh {satuan}", dan angka 100 ditulis sebagai "seratus". Jika input di luar rentang 1–100, program menampilkan pesan error.
 
 ### 3. Buatlah program yang dapat memberikan input dan output sbb.
 
