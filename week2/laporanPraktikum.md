@@ -481,9 +481,13 @@ int main() {
 
 ##### Output 1
 ![Screenshot Output Unguided 1_3-1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week2/output/output-unguided3-1.png)
+##### Output 2
 ![Screenshot Output Unguided 1_3-2](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week2/output/output-unguided3-2.png)
+##### Output 3
 ![Screenshot Output Unguided 1_3-3](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week2/output/output-unguided3-3.png)
+##### Output 4
 ![Screenshot Output Unguided 1_3-4](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week2/output/output-unguided3-4.png)
+##### Output 5
 ![Screenshot Output Unguided 1_3-5](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week2/output/output-unguided3-5.png)
 
 Kode di atas mendemonstrasikan program berbasis menu yang mengelola sebuah array satu dimensi berisi 10 bilangan bulat. Program ini menyediakan empat fitur utama: menampilkan seluruh isi array, mencari nilai maksimum, mencari nilai minimum, dan menghitung rata-rata nilai array. Fungsi tampilkanArray mencetak seluruh elemen array, cariMaksimum dan cariMinimum masing-masing mencari nilai terbesar dan terkecil dengan membandingkan setiap elemen, sedangkan prosedur hitungRataRata menjumlahkan seluruh elemen lalu membaginya dengan jumlah elemen untuk mendapatkan rata-rata. Pengguna dapat memilih fitur yang diinginkan melalui menu berbasis switch-case, dan program akan terus berjalan hingga pengguna memilih opsi keluar.
