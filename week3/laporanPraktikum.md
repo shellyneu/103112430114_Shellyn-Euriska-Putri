@@ -169,7 +169,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided1.png)
+![Screenshot Output Unguided 1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided1.png)
 
 Kode ini membuat program sederhana untuk mengelola data mahasiswa dan menghitung nilai akhir berdasarkan nilai UTS, UAS, dan tugas. Program menggunakan struktur mahasiswa untuk menyimpan nama, NIM, nilai UTS, UAS, tugas, dan nilai akhir. Fungsi input digunakan untuk menerima data mahasiswa dari pengguna, sedangkan fungsi hitungNilai menghitung nilai akhir dengan bobot 30% UTS, 40% UAS, dan 30% tugas. Di fungsi main, pengguna diminta memasukkan jumlah mahasiswa (maksimal 10), lalu data setiap mahasiswa diinput dan nilai akhirnya dihitung. Hasil akhir berupa nama, NIM, dan nilai akhir setiap mahasiswa ditampilkan ke layar.
 
@@ -241,7 +241,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_2-1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided2.png)
+![Screenshot Output Unguided 2](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided2.png)
 
 Program ini terdiri dari tiga file utama yang mengimplementasikan sebuah ADT (Abstract Data Type) untuk pelajaran. File pelajaran.h mendefinisikan struktur data pelajaran yang menyimpan nama dan kode pelajaran, serta deklarasi fungsi untuk membuat dan menampilkan data pelajaran. File pelajaran.cpp berisi implementasi fungsi create_pelajaran yang menginisialisasi objek pelajaran dengan nama dan kode yang diberikan, serta prosedur tampil_pelajaran untuk menampilkan informasi pelajaran ke layar. Pada file main.cpp, program membuat sebuah objek pelajaran dengan nama "Struktur Data" dan kode "STD", lalu menampilkan data tersebut menggunakan prosedur yang telah dibuat. Program ini mendemonstrasikan konsep pemisahan kode menggunakan header dan source file, serta penggunaan ADT untuk pengelolaan data sederhana.
 
@@ -302,7 +302,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_3-1](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided3.png)
+![Screenshot Output Unguided 3](https://github.com/shellyneu/103112430114_Shellyn-Euriska-Putri/blob/main/week3/output/output-unguided3.png)
 
 Program ini mendemonstrasikan cara menukar elemen pada array dua dimensi dan nilai variabel menggunakan pointer. Dua array 3x3 arr1 dan arr2 diinisialisasi dengan nilai berbeda, lalu fungsi tampil digunakan untuk menampilkan isi masing-masing array. Fungsi tukarArray menukar elemen array pada posisi tertentu, sedangkan fungsi tukarPointer menukar nilai dua variabel x dan y melalui pointer. Setelah proses penukaran, isi array dan nilai variabel ditampilkan kembali untuk memperlihatkan perubahan yang terjadi. Program ini memperkenalkan konsep passing by reference pada array dan pointer dalam C++.
 
