@@ -1055,12 +1055,12 @@ Secara keseluruhan, implementasi ini menunjukkan bahwa memahami struktur data st
 
 <br>
 [2] Kaluti, M. K., Govindaraju, Y., Shashank, A. R., & Harshith, K. S. (2018). Dynamic Implementation of Stack Using Single Linked List. International Research Journal of Engineering and Technology (IRJET), 5(3), 1923–1926. https://www.irjet.net/archives/V5/i3/IRJET-V5I3434.pdf
-</br>
+
 <br>
 [3] Stokke, K. A., Barash, M., & Järvi, J. (2023). A Domain-Specific Language for Structure Manipulation. Journal of Computer Languages, 74, 101175. https://doi.org/10.1016/j.cola.2023.101175
-</br>
+
 <br>
 [4] Ranti, S. (2022). Pengertian Stack dan Queue serta Contoh Penerapannya. Kompas.com. https://tekno.kompas.com/read/2022/12/01/02150047/pengertian-stack-dan-queue-serta-contoh-penerapannya?page=all
-</br>
 
-[5] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. Jurnal Informatika Universitas Pamulang, 5(2), 484–497.  
+<br>
+[5] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. Jurnal Informatika Universitas Pamulang, 5(2), 484–497.
