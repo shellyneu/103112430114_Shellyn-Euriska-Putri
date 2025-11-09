@@ -1051,16 +1051,22 @@ Fungsi pushAscending misalnya, menambahkan elemen ke dalam stack dengan tetap me
 Secara keseluruhan, implementasi ini menunjukkan bahwa memahami struktur data stack tidak hanya penting dari sisi teori, tetapi juga sangat bermanfaat dalam praktik pemrograman sehari-hari. Stack membantu menyelesaikan berbagai permasalahan yang berkaitan dengan urutan data, penyimpanan sementara, hingga efisiensi pemrosesan. Melalui penerapan fungsi-fungsi yang dibuat, terlihat bahwa konsep yang sederhana seperti LIFO dapat dikembangkan menjadi berbagai bentuk manipulasi data yang lebih kompleks dan bermanfaat.
 
 ## Referensi
+<br>
 [1] Naidu, D., & Prasad, A. (2014). Implementation of Enhanced Singly Linked List Equipped with DLL Operations: An Approach Towards Enormous Memory Saving. International Journal of Future Computer and Communication, 3(2), 98–101. https://doi.org/10.7763/IJFCC.2014.V3.276
+</br>
 
 <br>
 [2] Kaluti, M. K., Govindaraju, Y., Shashank, A. R., & Harshith, K. S. (2018). Dynamic Implementation of Stack Using Single Linked List. International Research Journal of Engineering and Technology (IRJET), 5(3), 1923–1926. https://www.irjet.net/archives/V5/i3/IRJET-V5I3434.pdf
+</br>
 
 <br>
 [3] Stokke, K. A., Barash, M., & Järvi, J. (2023). A Domain-Specific Language for Structure Manipulation. Journal of Computer Languages, 74, 101175. https://doi.org/10.1016/j.cola.2023.101175
+</br>
 
 <br>
 [4] Ranti, S. (2022). Pengertian Stack dan Queue serta Contoh Penerapannya. Kompas.com. https://tekno.kompas.com/read/2022/12/01/02150047/pengertian-stack-dan-queue-serta-contoh-penerapannya?page=all
+</br>
 
 <br>
 [5] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. Jurnal Informatika Universitas Pamulang, 5(2), 484–497.
+</br>
