@@ -52,9 +52,6 @@ Apabila nilai parameter lebih besar dari 1, fungsi akan mengembalikan hasil perk
 
 Pada fungsi main, program meminta pengguna memasukkan sebuah bilangan bulat menggunakan objek input cin. Data yang diterima selanjutnya diperiksa untuk memastikan bahwa angka tersebut tidak bernilai negatif. Jika pengguna memasukkan nilai negatif, program akan menampilkan pesan bahwa faktorial tidak terdefinisi untuk angka negatif. Sebaliknya, jika nilai memenuhi kriteria, fungsi faktorial akan dipanggil dan hasil perhitungan ditampilkan ke layar menggunakan cout.
 
-Secara keseluruhan, program ini menunjukkan penggunaan rekursi sebagai metode penyelesaian masalah yang memiliki pola pemecahan serupa pada ukuran masalah yang lebih kecil. Implementasi tersebut juga memperlihatkan bagaimana pemilihan struktur pengendali yang tepat, termasuk if-else, mampu menjamin keakuratan perhitungan dan validitas masukan pengguna. Penggunaan tipe data long int dimaksudkan agar program mampu menangani bilangan dengan nilai cukup besar, meskipun tetap memiliki keterbatasan terhadap batas maksimum penyimpanan tipe data pada komputer. Hal ini menjadikan program tersebut tidak hanya bermanfaat sebagai contoh perhitungan faktorial, tetapi juga sebagai ilustrasi penting dalam memahami konsep rekursif pada pemrograman.
-
-
 ### 2. faktorial_tree.cpp
 
 ```c++
@@ -122,8 +119,6 @@ Fungsi utama faktorial pada program ini menerima dua parameter, yaitu bilangan y
 Jika nilai parameter lebih besar dari 1, fungsi menampilkan proses matematis berupa ekspresi a * faktorial(a-1). Setelah pemanggilan rekursif dilakukan untuk menghitung nilai faktorial sebelumnya, barulah program mencetak informasi ketika fungsi selesai dieksekusi dan mengembalikan hasil ke fungsi sebelumnya. Proses ini divisualisasikan sebagai tanda panah kembali (^) yang menunjukkan bahwa eksekusi telah kembali dari level rekursi yang lebih dalam, sekaligus memperlihatkan tahapan penggabungan hasil perkalian pada setiap langkah pemanggilan.
 
 Pada fungsi main, program meminta pengguna memasukkan bilangan bulat untuk dihitung nilai faktorialnya. Validasi tetap dilakukan untuk mencegah masukan bilangan negatif yang tidak memiliki definisi faktorial dalam matematika. Jika masukan valid, struktur pohon rekursif akan dicetak terlebih dahulu sebelum program menampilkan hasil akhir perhitungan.
-
-Secara keseluruhan, program ini tidak hanya berfungsi untuk menghitung faktorial, melainkan juga memberikan pembelajaran visual mengenai cara kerja rekursi dalam struktur tree. Pendekatan ini sangat bermanfaat dalam bidang pendidikan pemrograman, karena dapat meningkatkan pemahaman konsep rekursi yang sering kali dianggap sulit dipahami hanya melalui bentuk kode tanpa visualisasi. Dengan adanya representasi grafis sederhana berupa indentasi, hubungan antar pemanggilan fungsi dapat dilihat secara eksplisit, sehingga mempermudah proses analisis dan pemahaman alur eksekusi rekursif.
 
 
 ### 3.1. bst.h
