@@ -1235,8 +1235,6 @@ Selain pemutusan relasi parent, prosedur ini juga memastikan bahwa seluruh node 
 Setelah penghapusan berhasil, sistem akan memberikan informasi berupa pesan keberhasilan yang menyebutkan node parent yang dijadikan acuan.
 
 ## Kesimpulan
-ChatGPT said:
-
 Keseluruhan kode dan pembahasan mengenai multi linked list pada program ini menunjukkan bagaimana struktur data dapat digunakan untuk merepresentasikan hubungan hierarkis antara satu data induk dengan beberapa data anak secara dinamis. Berdasarkan dasar teori yang telah dijelaskan sebelumnya, multi linked list berbeda dengan linked list biasa karena setiap node induk tidak hanya menyimpan pointer ke node berikutnya dan sebelumnya, tetapi juga memiliki sebuah list anak yang dapat berisi banyak elemen. Konsep ini terbukti efektif ketika digunakan untuk kasus yang membutuhkan relasi satu-ke-banyak, seperti pada contoh program ini yang memodelkan golongan hewan sebagai parent dan daftar hewan sebagai child.
 
 Melalui implementasi program, terlihat bahwa operasi-operasi dasar seperti insert, delete, search, dan traversal dapat diterapkan tidak hanya pada satu tingkat list, tetapi juga pada list di dalam list. Prosedur seperti insertFirstParent, insertLastChild, searchHewanByEkor, hingga deleteAfterParent memperlihatkan bagaimana pointer digunakan untuk memanipulasi node tanpa perlu memindahkan data lain, sehingga proses pengelolaan data menjadi lebih fleksibel dan efisien. Selain itu, adanya pengecekan kondisi list kosong, validasi pointer, dan dealokasi node menunjukkan bahwa pengelolaan memori menjadi hal penting dalam struktur data dinamis agar terhindar dari error maupun memory leak.
