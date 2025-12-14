@@ -55,9 +55,9 @@ void PrintinfoGraph(Graph G) {
     }
 }
 
-void PrintDFS(Graph G, infoGraph StartInfo) {
+void PrintDFS(Graph G, adrNode N) {
     ResetVisited(G);
-    adrNode StartNode = FindNode(G, StartInfo);
+    adrNode StartNode = N;
     
     if (StartNode == NULL) return;
 
