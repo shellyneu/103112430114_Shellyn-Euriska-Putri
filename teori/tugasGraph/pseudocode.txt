@@ -1,0 +1,69 @@
+1. a
+type adrVertex : ^elmtVertex;
+type adrEdge   : ^elmtEdge;
+
+type elmtVertex: < info       : char,   
+                   firstEdge  : adrEdge,
+                   nextVertex : adrVertex 
+                 >;
+
+type elmtEdge  : < destination : adrVertex, 
+                   nextEdge    : adrEdge   
+                 >;
+
+type listVertex: adrVertex; 
+type listEdge  : adrEdge;  
+
+type Graph     : < Vertex : listVertex,
+                   Edge   : listEdge
+                 >;
+
+
+1. b
+function isComplete(G:Graph) → boolean
+{ mengembalikan TRUE apabila graph G adalah lengkap, dan FALSE apabila sebaliknya }
+
+kamus
+    N       : integer    
+    V       : adrVertex  
+
+algoritma
+    N := countVertex(G)
+    
+    if (N <= 1) then 
+        return TRUE 
+    end if
+    
+    V := G.Vertex
+    
+    while (V != nil) do
+        if (countDegree(V) != (N - 1)) then
+            return FALSE 
+        end if
+        
+        V := V.nextVertex 
+    end while
+    
+    return TRUE
+
+
+1. c
+function findVertex(v:char, G:Graph) → adrVertex
+{ mencari vertex v pada graph G, mengembalikan alamat vertex v jika ditemukan atau
+  mengembalikan nil jika v tidak ada pada G }
+
+kamus
+    P : adrVertex  
+
+algoritma
+    P := G.Vertex 
+    
+    while (P != nil) do
+        if (P.info = v) then
+            return P  
+        end if
+        
+        P := P.nextVertex 
+    end while
+    
+    return nil
